@@ -11,15 +11,9 @@ import java.util.Objects;
  */
 public class Test {
     public static void main(String[] args) throws NoSuchMethodException, NoSuchFieldException, InvocationTargetException, IllegalAccessException, InstantiationException {
-      Field f= C.class.getDeclaredField("str");
-        f.setAccessible(true);
-        if (f.isAnnotationPresent(ValidLength.class)){
-            System.out.println("Есть аннотация"+ ValidLength.class.getTypeName());
-            ValidLength vLen = f.getAnnotation(ValidLength.class);
-            if(vLen.value() != ((String) f.get(C.class.newInstance())).length()){
-                System.out.println("длина некоректна");
-            }
-        }
+
+
+        new Invocation
 
     }
 }
