@@ -13,7 +13,7 @@ public class Test {
     public static void main(String[] args) throws NoSuchMethodException, NoSuchFieldException, InvocationTargetException, IllegalAccessException, InstantiationException {
 
 
-        new Invocation
+
 
     }
 }
