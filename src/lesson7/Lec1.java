@@ -16,9 +16,9 @@ public class Lec1 {
       //  Person person = (Person) persClazz.newInstance();
     //  Method mm =  persClazz.getMethod("info");
        // mm.invoke(persClazz.newInstance(),null);
- Calculator calculator = new CalculatorImpl();
+        Calculator calculator = new CalculatorImpl();
         calculator.calc();
-Calculator  calculator_new = (Calculator) calcClazz.newInstance();
+        Calculator  calculator_new = (Calculator) calcClazz.newInstance();
         calculator_new.calc();
     }
 }
